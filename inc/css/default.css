@@ -1,0 +1,48 @@
+/* GENERAL */
+body { font-family: Lucida Sans Unicode, Helvetica, sans-serif; font-weight: 400; font-size: 11px; color: #666; }
+a { text-decoration: none; color: #6e6e70; }
+
+/* HEADER */
+div#header { position: relative; left: 100px; top: 15px; width: 100%; height: 50px; }
+div#header ul { list-style: none; }
+div#header li { float: left; margin-right: 15px; }
+div#header h2 { font-family: Lucida Sans Unicode; font-size: 1em; letter-spacing: 1px; font-weight: 400; color: #6e6e70; }
+div#header h2 a { position: relative; color: #58585a; }
+
+div#top_shadow { width: 680px; height: 22px; position: relative; bottom: 10px; background: url(../img/bg_top_shadow.png) no-repeat left bottom; }
+
+/* STRUCTURE */
+div#content { overflow: hidden; }
+div#container { width: 960px; min-height: 50px; padding: 0 0 50px 0; margin: 0 auto; position: relative; }
+div#sitemap_container { clear: both; overflow: auto; width: 100%; min-height: 500px; margin: 15px 0 0 0; padding: 0 10px; }
+
+/* ZOOM */
+div#zoom { position: absolute; left: 0; top: 175px; height: 200px; }
+img.zoom { position: absolute; left: -5px; top: 385px; }
+
+/* FOOTER */
+div#footer { font-weight: 400; clear: both; }
+div#footer img.left { padding: 0 15px 0 0; }
+div#footer img.right { padding: 0 0 0 15px; }
+div#footer li { display: block; height: 20px; }
+
+div#footer_left { float: left; }
+div#footer_left ul { list-style: none; }
+div#footer_left li { float: left; margin: 0 20px 0 0; }
+
+div#footer_right { float: right; }
+div#footer_right ul { list-style: none; }
+div#footer_right li { float: left; margin: 0 20px 0 0; }
+
+div#bottom_shadow { background: url(../img/bg_bottom_shadow.png) no-repeat bottom center; height: 55px; }
+
+/* LOGIN */
+div#login { width: 440px; margin: 0 auto; }
+div#login input, div#login td { font-size: 1em; }
+
+/* OVERVIEW */
+h3.overview { margin-bottom: 20px; color: #6e6e70; font-size: 11px; letter-spacing: 1px; font-weight: 400; }
+a.overview { color: #ccc; text-decoration: underline; }
+
+div#sitemap_overview { font-weight: 400; width: 300px; height: 270px; float: left; padding: 10px; border: 1px solid #ccc; margin: 20px 40px 30px 0; overflow-y: auto; }
+div#sitemap_overview_archived { font-weight: 400; width: 300px; height: 270px; float: left; padding: 10px; border: 1px solid #ccc; margin: 20px 40px 30px 0; overflow-y: auto; }

@@ -1,0 +1,16 @@
+fieldset#sitemap { float: left; width: 100%; overflow: hidden; position: relative; }
+
+fieldset#sitemap ul { list-style: none; }
+fieldset#sitemap li { border-left: 0.091em solid #888; position: relative; }
+fieldset#sitemap img.node { height: 1.818em; width: 2.273em; position: relative; left: -0.80em; top: 3em; }
+
+fieldset#sitemap div.page_container { height: 6em; position: relative; }
+div.last { width: 1.5em; height: 100%; left: -0.5em; position: absolute; top: 3.9em; background: #fff; }
+fieldset#sitemap div.page_container div.page { position: relative; margin: 0 20px; }
+fieldset#sitemap div.page_container div.page img.page_icon { height: 4.27em; width: 3.227em; }
+fieldset#sitemap div.page_container div.page p.add_notes a { position: relative; bottom: 4.9em; left: 0.67em; font-size: 0.8em; color: #FF9933; }
+fieldset#sitemap div.page_container div.page p.add_page { position: relative; bottom: 4.55em; left: 0.92em; font-size: 0.8em; }
+fieldset#sitemap div.page_container div.page p.delete_page { position: relative; bottom: 4.2em; left: 0.4em; font-size: 0.8em; }
+fieldset#sitemap div.page_container div.page p.page_name { position: relative; bottom: 5.4em; left: 4.2em; font-size: 0.9em; text-transform: uppercase; }
+
+p.info { font-size: 0.95em; position: absolute; left: 4.1em; top: 3.5em; width: 30em; }

@@ -1,0 +1,32 @@
+/* SITEMAP */
+/*fieldset#sitemap { display: block; position: relative; text-align: center; border: 1px solid red; }
+
+fieldset#sitemap ul { margin: 0 auto; clear: left; display: block; }
+fieldset#sitemap ul ul { border-top: 1px solid black; margin: 2em 0 0 0; display: block; }
+fieldset#sitemap li { display: inline; float: left; list-style: none; position: relative; }
+fieldset#sitemap li li { margin: -1px 0 0 0; overflow: hidden; margin: 0 0.6em 0 0; }
+
+fieldset#sitemap div.page_container div.page { display: block; position: relative; z-index: 1000; }
+fieldset#sitemap div.page_container div.page img { width: 5.727em; height: 9.727em; }*/
+
+fieldset#sitemap { float: left; width: 100%; overflow: hidden; position: relative; }
+fieldset#sitemap ul { width: auto; clear: left; float: left; margin: 0; padding: 0; position: relative; left: 50%; text-align: center; }
+fieldset#sitemap ul li { font-weight: 400; display: block; float: left; margin: 0; padding: 0; position: relative; right: 50%; }
+
+fieldset#sitemap div.page_container { height: 12.727em; border-top: 1px solid #ccc; }
+div.first { position: absolute; width: 50%; height: 2px; margin: -1px 0 0 0; background: #fff; }
+div.last { position: absolute; left: 50%; width: 50%; height: 2px; margin: -1px 0 0 0; background: #fff; }
+fieldset#sitemap div.page_container div.page { position: relative; margin: 0 20px; }
+fieldset#sitemap div.page_container div.page img.page_icon { height: 9.727em; width: 5.727em; }
+fieldset#sitemap div.page_container div.page p.add_notes a { position: relative; bottom: 6em; font-size: 1.1em; color: #FF9933; }
+fieldset#sitemap div.page_container div.page p.add_page { position: relative; bottom: 5.7em; }
+fieldset#sitemap div.page_container div.page p.delete_page { position: relative; bottom: 4.7em; }
+fieldset#sitemap div.page_container div.page p.page_name { position: relative; bottom: 2.273em; text-transform: uppercase; }
+
+p.info { display: none; }
+
+@media print {
+	body { font-size: 10px; }
+	p.add_notes, p.add_page, p.delete_page { display: none; }
+	p.page_name { position: relative; top: 5px; }
+}
